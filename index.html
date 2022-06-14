@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>webp va Avif</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="header__contaoner">
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__container">
+
+                    <picture>
+                        <!-- avif -->
+
+
+                        <source type="image/avif" media="(max-width:375px )" srcset="./images/subscribe375px.avif 1x, images/subscribe375px2x.avif 2x">
+
+
+                        <source type="image/avif" media="(max-width:768px )" srcset="./images/subscribe690px.avif 1x, ./images/subscribe690px2x.avif 2x">
+
+
+                        <source type="image/avif" class="hero__img" src="./images/subscribe.avif" alt="subscribe" srcset="./images/subscribe.avif 1x, ./images/subscribe2x.avif 2x">
+
+
+
+                        <!-- webp -->
+
+                        <source type="image/webp" media="(max-width:375px )" srcset="./images/subscribe375px.webp 1x, ./images/subscribe375px2x.webp 2x">
+
+
+                        <source type="image/webp" media="(max-width:768px )" srcset="./images/subscribe690px.webp 1x, ./images/subscribe690px2x.webp 2x">
+
+
+                        <source type="image/webp" class="hero__img" src="./images/subscribe.webp" alt="subscribe" srcset="./images/subscribe.webp 1x, ./images/subscribe2x.webp 2x">
+
+                        
+                        <!-- jpg -->
+
+                        <source media="(max-width:375px )" srcset="./images/subscribe375px.jpg 1x,  ./images/subscribe375px2x.jpg 2x">
+
+
+                        <source media="(max-width:768px )" srcset="./images/subscribe690px.jpg 1x, ./images/subscribe690px2x.jpg 2x" >
+
+
+                        <img class="hero__img" src="./images/subscribe.jpg" alt="subscribe"  srcset="./images/subscribe.jpg 1x, ./images/subscribe2x.jpg 2x">
+
+
+                    </picture>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
